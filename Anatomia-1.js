@@ -13,14 +13,14 @@ function sayhello(name) {
 sayhello('Mike')
 
 function returnHi() {
-    return 'Hi!'     //função de retornando algo
+    return 'Hi!'     //função básica para retorno
 }
 
 console.log(returnHi())
 
 
 function returnHiTo(name) {
-    return `Hi ${name}!` //função retornando um dado interpolado
+    return `Hi ${name}!` //função: retornando um dado interpolado
 }
 
 console.log(returnHiTo('João'))
