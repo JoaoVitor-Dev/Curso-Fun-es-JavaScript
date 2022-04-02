@@ -4,7 +4,7 @@ const greaterThanZero = el => el > 3 //Arrow function que recebe um determinado 
 //e verifica se esse elemento é maior do que três
 
 console.log(numbers.filter(greaterThanZero));
-//filter aplicando a fução greaterThanZero no Array numbers
+//filter aplicando a função greaterThanZero no Array numbers
 
 const even = el => el % 2 === 0 //função que filtrará apenas os elementos pares de um Array
 
